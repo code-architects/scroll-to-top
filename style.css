@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: arial;
+    background: url("https://wallpaperplay.com/walls/full/4/e/6/329978.jpg");
+     background-attachment: fixed;
+}
+.content{
+    margin-top: 100px;
+    height: 200vh;
+    padding: 20px;
+    text-align:justify;
+    font-size: 24px;
+    line-height: 40px;
+}
+.scrolltopbtn{
+    display:none;
+    padding: 12px 20px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #424242;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.15s;
+}
+.scrolltopbtn:hover{
+    background: #000;
+}
